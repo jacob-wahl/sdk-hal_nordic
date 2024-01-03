@@ -57,7 +57,7 @@
  * waiting time of 500 ms what should cover most cases, including erasing
  * of sectors in most flash chips.
  */
-#define QSPI_DEF_WAIT_ATTEMPTS 50000
+#define QSPI_DEF_WAIT_ATTEMPTS 120000
 
 /**
  * @brief Macro for initializing a QSPI pin.
